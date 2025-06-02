@@ -17,7 +17,7 @@ const Navbar = () => {
 
           <div className="hidden items-center space-x-4 sm:flex">
             <>
-              <Link
+              {/* <Link
                 href="/pricing"
                 className={buttonVariants({
                   variant: "ghost",
@@ -25,7 +25,7 @@ const Navbar = () => {
                 })}
               >
                 Pricing
-              </Link>
+              </Link> */}
               <LoginLink
                 className={buttonVariants({
                   variant: "ghost",
